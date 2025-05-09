@@ -1,0 +1,6 @@
+<mvc:interceptors>
+    <mvc:interceptor>
+        <mvc:mapping path="/**"/>
+        <bean class="com.example.university.interceptor.LoggingInterceptor"/>
+    </mvc:interceptor>
+</mvc:interceptors>
